@@ -1,0 +1,323 @@
+body{
+    background-color:rgb(22, 22, 25)
+}.nav-wrapper{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(146, 253, 7);
+}
+.nav2{
+    height: 90px;
+    background-color: rgb(41, 38, 38);
+    word-spacing: 30px;
+}
+.ride{
+    font-weight: 500;
+    font-family: cursive;
+    
+    font-size: 50px;
+    color: greenyellow;
+}
+.shop{
+    color: grey;
+}
+.explore{
+    color: grey;
+}
+.more{
+    
+    color: grey;
+}
+.freedom{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    font: 300;
+}
+.escape{
+    color:white ;
+    font-size: 20px;
+    font: 10;
+}
+.new1{
+    
+    background-color: rgb(201, 245, 8);
+}
+#hover:hover{
+    background: url(surfers/FCS-II-CI-Upright_White_002_1200x_8b6cbd61-36f5-4f4b-8e8f-e8ddc230eb89.webp); width: 80%;
+
+}
+
+.card0 {
+    position: relative;
+    width: 220px;
+    height: 320px;
+    background:url(surfers/remove1-removebg-preview.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .card0::before,
+  .card0::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: url(surfers/74797536_2674222699283221_8011386391311350414_n.webp) ;
+    background-size: cover;
+    transition: all 0.5s;
+    width: 0%;
+  }
+  
+  .card0::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .card0::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .card0:hover::before,
+  .card0:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+    
+  }
+  
+  .card:hover:after {
+    
+  }
+
+
+
+  .card1 {
+    position: relative;
+    width: 220px;
+    height: 320px;
+    background:url(surfers/remove2-removebg-preview.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .card1::before,
+  .card1::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: url(surfers/94761897_544798596092561_1030979649634926492_n.webp) ;
+    background-size: cover;
+    transition: all 0.5s;
+    width: 0%;
+  }
+  
+  .card1::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .card1::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .card1:hover::before,
+  .card1:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+    
+  }
+  
+  .card1:hover:after {
+    
+  }
+
+
+
+  .card2 {
+    position: relative;
+    width: 220px;
+    height: 320px;
+    background:url(surfers/board_1-removebg-preview.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .card2::before,
+  .card2::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: url(surfers/Softech_Flash_Eric_Gieselman_Life_1200x_a46c3f79-a08c-4f46-a3be-cb1ba7bcc547.webp) ;
+    background-size: cover;
+    transition: all 0.5s;
+    width: 0%;
+  }
+  
+  .card2::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .card2::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .card2:hover::before,
+  .card2:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+    
+  }
+  
+  .card2:hover:after {
+    
+  }
+
+
+
+  .card3 {
+    position: relative;
+    width: 220px;
+    height: 320px;
+    background:url(surfers/board2-removebg-preview.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .card3::before,
+  .card3::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: url(surfers/82305007_185038922878029_8682942169951506107_n.webp) ;
+    background-size: cover;
+    transition: all 0.5s;
+    width: 0%;
+  }
+  
+  .card3::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .card3::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .card3:hover::before,
+  .card3:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+    
+  }
+  
+  .card3:hover:after {
+  }
+
+  .nathan1{
+    color: white;
+    font: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+  .join{
+    color: rgb(187, 169, 169);
+    font-size: 17px;
+    font: 500;
+
+  }
+
+  .punch{
+    color: white;
+    font-size: 70px;
+    font: 700;
+    font: bold;
+  }
+  .flat{
+    color: white;
+    font-size: 17px;
+  }
+  .nav2{
+    height: 250px;
+    background-color: rgb(201, 245, 8);
+  }
+  .us{
+     text-align: center;
+     height: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-family: sans-serif;
+     font:1000 ;
+     color: black;
+     font-size: 40px;
+     word-spacing: 1px;
+  }
+  .off{
+    word-spacing: 1px;
+    color: black;
+    text-align: center;
+    
+  }
+input{
+  color: black;
+}
